@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Color Scheme</title>
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="public/img/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="public/img/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="public/img/favicon-16x16.png" />
+        <link rel="manifest" href="public/img/site.webmanifest" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- copy text -->
+        <p id="copyText"></p>
+        <div id="container">
+            <div class="top">
+                <input type="color" value="#407BF2" class="input-color" id="input-color" />
+                <select id="select-mode">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-light">Monochrome-dark</option>
+                    <option value="monochrome-dark">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                </select>
+                <button id="btn-scheme">Get color scheme</button>
+            </div>
+            <div class="color-container">
+                <!-- colors here -->
+            </div>
+        </div>
+        <script type="module" src="/main.js"></script>
+    </body>
+</html>
