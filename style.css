@@ -86,3 +86,7 @@ button:hover {
     font-family: "Sen", sans-serif;
     color: lightgray;
 }
+footer{
+    font-family: inherit;
+    text-align: center;
+}
