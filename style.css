@@ -87,6 +87,7 @@ button:hover {
     color: lightgray;
 }
 footer{
-    font-family: inherit;
+    margin-top: 20px;
+    font-family: arial;
     text-align: center;
 }
